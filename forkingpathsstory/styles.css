@@ -1,0 +1,134 @@
+body {
+  background-image: linear-gradient(rgb(18, 9, 143), rgb(199, 1, 160)); 
+}
+
+
+
+
+#panel1{
+    display:block;
+    color:rgb(255, 255, 255);
+}
+
+#panel2{
+    display:none;
+    color:white;
+}
+
+#panel2.active{
+    display:block;
+}
+
+#panel3{
+    display:none;
+    color:white;
+}
+
+/* #panel3.active{
+    display:block;
+} */
+
+#panel4{
+    display:none;
+    color:white;
+}
+
+/* #panel4.active{
+    display:block;
+} */
+
+#panel5{
+    display:none;
+    color:white;
+}
+/* #panel5.active{
+    display:block;
+} */
+#panel6{
+    display:none;
+    color:white;
+}
+/* #panel6.active{
+    display:block;
+} */
+#panel7{
+    display:none;
+    color:white;
+}
+/* #panel7.active{
+    display:block;
+} */
+#panel8{
+    display:none;
+    color:white;
+}
+/* #panel8.active{
+    display:block;
+} */
+
+
+p{
+    font-size: 20px;
+    text-align:center;
+    margin: 20px;
+}
+
+.panel{
+    font-size: 40px;
+    text-align:center;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+  /* position:static; */
+}
+
+/* The slider itself */
+.slider {
+   
+  width: 80%;
+  height: 150px;
+  /* background: #ffffff; Grey background */
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url('sliderstargraphic.png');
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    cursor: pointer;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 75px;
+    height: 150px;
+    border: none;
+    background-image: url('sliderstargraphic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-top: 0px;
+    
+}
+
+.slider::-moz-range-thumb {
+    width: 75px;
+    height: 32px;
+    border: none;
+    background-image: url('sliderstargraphic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
